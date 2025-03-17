@@ -1,0 +1,244 @@
+
+
+.startwrap{
+    background-image:url('https://i.ibb.co/1f73wGj4/brownbg.png');
+}
+
+.next{
+    text-align: center;
+}
+
+/*index*/
+
+.whole-thing{
+    background-image:url('https://textures.neocities.org/thumbnails/wood/thumb_cc024346.jpg');
+    filter:sepia(80%);
+  }
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between, center;
+    align-items: center;
+}
+
+.folder{
+    width:auto;
+    height:100vh;
+}
+
+.startbutton{
+    width:10%;
+    height: auto;
+    position:absolute;
+    top:75%;
+    left:52%;
+    transform: translateX(-50%);
+    opacity: 0.6;
+}
+
+.startbutton:hover{
+    opacity:1;
+    filter: drop-shadow(5px 5px 5px rgba(80, 16, 64, 0.432));
+}
+
+/* for home page */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    font-family: "Kings", cursive;
+    text-shadow: 2px 2px #9d00ff;
+    font-size: 60px;
+    line-height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between, center;
+    align-items: center;
+}
+
+.main{
+    width: 70vw;
+    height: 100vh;
+}
+
+.side{
+    background-color: cadetblue;
+    font-family: "Texturina", serif;
+    opacity: 50%;
+    width: 29vw;
+    height:100vh;
+    position: absolute;
+    top:100px;
+    right:0;
+    z-index:-1;
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+
+p{
+    margin:0;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.intro{
+    background-color: antiquewhite;
+    width: 70%;
+    font-family: "Texturina", serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hide{
+  opacity: 20%;
+}
+
+.psychimage{
+    display: flex;
+    float:right;
+    height: 50%;
+    padding: 10px;
+}
+
+/*
+.note{
+    background-image: url('https://i.ibb.co/JJ9yDp6/360-F-553807844-NBCTf-Lk5uqr8-Nrm0y-ONz-ZI2-LDc-Zgy-SJD.jpg');
+    padding: 10px;
+    margin: 10px;
+    width:30%;
+    height:auto;
+    position: relative;
+    top:100px;
+    right:5px;
+}
+*/
+
+  .draggablenotes{
+    height:400px;
+  }
+
+.note{
+    background-image: url('https://i.ibb.co/JJ9yDp6/360-F-553807844-NBCTf-Lk5uqr8-Nrm0y-ONz-ZI2-LDc-Zgy-SJD.jpg');
+    font-family: "Macondo", serif;
+    padding: 10px;
+    margin: 10px;
+    width:50%;
+    height:auto;
+    padding: 1em;
+    box-shadow: 3px 3px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .note:nth-child(2) {
+    background-image: url('https://i.ibb.co/r2W9gT7Z/Screenshot-2025-03-10-111248.jpg');
+    top: 0%;
+    left: 10%;
+    width:30%;
+    height:auto;
+  }
+  
+  .note:nth-child(3) {
+    left: 10%;
+    width:-30px;
+    width:40%;
+    height:auto;
+  }
+
+  .note:nth-child(4) {
+    top: 0%;
+    left: 10%;
+    width:50%;
+    height:auto;
+  }
+
+  .note:nth-child(5) {
+    top: 0%;
+    left: 10%;
+    width:30%;
+    height:auto;
+  }
+
+  .note:nth-child(6) {
+    top: 0%;
+    left: 10%;
+    width:70%;
+    height:auto;
+  }
+
+  .note:nth-child(7) {
+    background-image: url('https://i.ibb.co/r2W9gT7Z/Screenshot-2025-03-10-111248.jpg');
+    top: 0%;
+    left: 10%;
+    width:50%;
+    height:auto;
+  }
+
+  .note:nth-child(8) {
+    top: 0%;
+    left: 10%;
+    width:30%;
+    height:auto;
+  }
+
+  .note:nth-child(9) {
+    top: 0%;
+    left: 10%;
+    width:40%;
+    height:auto;
+  }
+
+
+/*end page*/
+
+.finish{
+    background-color: cadetblue;
+    opacity: 50%;
+    width: 200px;
+    height:50px;
+    position:absolute;
+    top:90%;
+    left:80%;
+    text-align: center;
+}
+
+.endwrap{
+    background-color: black;
+    filter: sepia(100%);
+}
+
+.newspaper{
+    scale: 180%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between, center;
+    align-items: center;
+    margin-top: 50px;
+    transform:rotate(20deg);
+}
+
+.cascadetext{
+    z-index:-1;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform:perspective(1500px) rotateX(45deg);
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    line-height:200%;
+    color: yellow;
+    background-color: black;
+    font-size: 1.75em;
+}
